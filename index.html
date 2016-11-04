@@ -1,0 +1,255 @@
+<!doctype html>
+<html>
+<head>
+    <title>Hall 5 Tour</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/ >
+    <link href="file:///C:/Users/Lenovo/Desktop/New folder/Hall-5/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="file:///C:/Users/Lenovo/Desktop/New folder/Hall-5/hall5.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="file:\\\C:\Users\Lenovo\Desktop\New folder\Hall-5\font-awesome\css\font-awesome.min.css">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <script>
+    $(document).ready(function(){
+      $("#div1").hide();
+    $("#button1").click(function(){
+      $("#div1").show(1000);
+      });
+      $("#button1").click(function(){
+        $(this).hide();
+      });
+    });
+
+    $(document).ready(function(){
+        $(".col").click(function(){
+             var div= $(".col");
+            div.animate({width: '200px', opacity: '1'}, "slow");
+          });
+        $(".col").click(function(){
+            var div1 = $(this)
+            div1.animate({width: '700px', opacity: '1'}, "slow");
+          });
+
+    });
+    </script>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<div class="jumbotron">
+    <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+        <ol class="carousel-indicators" >
+            <li data-target="#myCarousel" data-slide-to="0" ></li>
+            <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3" ></li>
+        </ol>
+        <div class="carousel-inner " role="listbox">
+            <div class="item">
+              <img src="file:\\\C:\Users\Lenovo\Desktop\New folder\Hall-5\iitk_gate.jpg" alt="iitk_gate">
+              <div class="carousel-caption">
+                <h1><b>Welcome to IIT Kanpur</b> - the land of dreams</h1>
+              </div>
+            </div>
+            <div class="item active">
+              <img src="file:\\\C:\Users\Lenovo\Desktop\New folder\Hall-5\hall5_path.jpg" alt="hall5_path">
+              <div class="carousel-caption">
+                <h6><b><i>Hi !! Welcome to the tour of Hall5 of IIT Kanpur</b></i></h6>
+                <h2 style="color:white"> click below to explore</h2>
+                <button type="button"  style="padding:10px 50px 10px 50px;border-radius:10px"><b>Explore</b></button>
+              </div>
+            </div>
+            <div class="item">
+              <div class="carousel-caption">
+                <h1>Entrance gate of Hall5 </h1>
+              </div>
+              <img src="file:\\\C:\Users\Lenovo\Desktop\New folder\Hall-5\hall5_gate.jpg" alt="hall5_gate">
+            </div>
+            <div class="item">
+              <img src="file:\\\C:\Users\Lenovo\Desktop\New folder\Hall-5\hall5_quad.jpg" alt="hall5_quad">
+              <div class="carousel-caption">
+              <h1>Hall5 quad - where doing something sanskari is prohibited </h1>
+              </div>
+            </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left logo-small" ></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right logo-small"></span>
+        </a>
+        </div>
+    </div>
+    </div>
+<nav class="navbar navbar-default " data-spy="affix"
+    data-offset-top="490">
+      <div class="container-fluid">
+      <div class="navbar-header">
+
+        <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home logo"></span></a>
+      </div>
+    <ul class="nav navbar-nav" id="nav" style="font-size:25px">
+      <li class="active" ><a href="#About" >About</a></li>
+      <li><a href="#Images" >Images</a></li>
+      <li><a href="#Reviews" >Reviews</a></li>
+      <li><a href="#Contact" >Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container-fluid" style="padding:70px 30px 40px 30px" id="About">
+  <h1 style="color:#f4511e;text-align:center" ><b>About Hall5</b></h1><br>
+  <div style="font-size:30px;text-align:justify">Hall5 is one of the hostels which currently accomodates undergraduate student till 3rd year.Strength of students is approx. 500 students.
+    It has total 9 wings and each wing has 8 rooms and 2 washrooms.Each wing has a separate water cooler.Sports facilities are good enough and atmosphere is extremely hygienic.
+    Mess is well maintained same goes with canteen.It also includes TV room,Music room,Multipurpose room,Hall cc,Reading room and a gym.
+<span id="button1" style="color:#f4511e;cursor:pointer">show more</span>
+<div id="div1" style="font-size:30px;text-align:justify">Hall5 participates in various programs such as galaxy,takneek,spectrum,inferno etc.
+  Currently hall5 holds the prestigious GC trophy.Hall5 gives a tough cometiton to all other halls in any event.Hall5 was previously an post-graduate hall and
+  was later changed for Undergraduate students.Hall5 also organises a Hall day(expalined briefly below) every year.</div>
+</div><br><br>
+<div class="dropdown">
+  <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" style="padding:5px 43px 5px 43px;font-size:20px">Events
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#" tab-index="-1">Hall Day</a></li>
+      <li><a href="#" tab-index="-1">Janmastmi</a></li>
+      <li><a href="#" tab-index="-1">Diwali</a></li>
+      <li class="dropdown-submenu">
+      <a href="#" tab-index="-1">Inter-hall events<span class="caret"></span></a>
+        <ul class="dropdown-menu" >
+          <li><a href="#">Galaxy</a></li>
+          <li><a href="#">Takneek</a></li>
+          <li><a href="#">Inferno</a></li>
+          <li><a href="#">Spectrum</a></li>
+        </ul>
+      </li>
+    </ul>
+</div>
+<div class="dropdown">
+  <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" style="padding:5px 33px 5px 33px;font-size:20px">Facilities
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu">
+      <li><a href="#">Mess</a></li>
+      <li><a href="#">Sports</a></li>
+      <li><a href="#">Rooms</a></li>
+    </ul>
+</div>
+<div class="dropdown">
+  <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" style="padding:5px 13px 5px 13px;font-size:20px">Wing-masti
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Baap-wing</a></li>
+      <li><a href="#">Quad-session</a></li>
+      <li><a href="#">Interwing-activities</a></li>
+    </ul>
+</div>
+<div class="dropdown">
+  <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" style="padding:5px 43px 5px 43px;font-size:20px">Sports
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Basketball</a></li>
+      <li><a href="#">Badmintoon</a></li>
+      <li><a href="#">Table-tennis</a></li>
+      <li><a href="#">Cricket</a></li>
+    </ul>
+</div>
+<div id="Images" class="set" style="padding:70px 30px 40px 30px;width:100%;height:800px">
+  <h1 style="color:#f4511e;text-align:center"><b>An Inside Peek</b></h1><br><br>
+  <p style="text-align:center;font-size:30px">Click on any image to enlarge it..</p><br><br>
+<ul class="row">
+  <li class="col" style="width:200px;height:auto">
+    <img src="file:\\\C:\Users\Lenovo\Desktop\New folder\Hall-5\hall5_way.jpg" style="width:100%;height:100%;">
+  </li>
+  <li class="col" style="width:200px;height:auto">
+    <img src="file:\\\C:\Users\Lenovo\Desktop\New folder\Hall-5\wing_interaction.jpg" style="width:100%;height:100%">
+  </li>
+  <li class="col" style="width:700px;height:auto">
+    <img src="file:\\\C:\Users\Lenovo\Desktop\New folder\Hall-5\hall5_terrace.jpg" style="width:100%;height:100%">
+  </li>
+  <li class="col" style="width:200px;height:auto">
+    <img src="file:\\\C:\Users\Lenovo\Desktop\New folder\Hall-5\hall5_entrance.jpg" style="width:100%;height:100%">
+  </li>
+  <li class="col" style="width:200px;height:auto">
+    <img src="file:\\\C:\Users\Lenovo\Desktop\New folder\Hall-5\garden.jpg" style="width:100%;height:100%">
+  </li>
+  <li class="col" style="width:200px;height:auto">
+    <img src="file:\\\C:\Users\Lenovo\Desktop\New folder\Hall-5\hall5_masti.jpg" style="width:100%;height:100%">
+  </li>
+</li>
+</ul>
+</div><br>
+
+<div class="container-fluid" style="padding:70px 0px 0px 70px" id="Reviews">
+<h1 style="color:#f4511e;text-align:center"><b>  Reviews of some students staying in hall 5</b></h1><br>
+    <div id="mycarousel2" class="carousel slide text-center" data-ride="carousel">
+        <div  class="carousel-inner " role="listbox">
+            <div class="item">
+                 <img src="file:\\\C:\Users\Lenovo\Desktop\New folder\Hall-5\surf.jpg" style="width:150px;height:100px;border-radius:50%" class="col-md-offset-3 col-md-3">
+                 <h3 class="col-md-6" style="margin:0px 0px 0px 0px;text-align:justify"><span style="font-style:normal">Anvay chaudary</span><br><i>-had the best 2 years of my life in hall 5..</i></h3>
+            </div>
+            <div class="item active">
+               <img src="file:\\\C:\Users\Lenovo\Desktop\New folder\Hall-5\butterfly.jpg" style="width:150px;height:100px;border-radius:50%" class="col-md-offset-3 col-md-3">
+                <h3 class="col-md-6" style="margin:0px 0px 0px 0px;text-align:justify" ><span style="font-style:normal">Vibhor Gupta</span><br><i> - Nothing Could beat hall5's atmosphere..I miss those days</i></h3>
+            </div>
+            <div class="item">
+               <img src="file:\\\C:\Users\Lenovo\Desktop\New folder\Hall-5\tiger.jpg" style="width:150px;height:100px;border-radius:50%" class="col-md-offset-3 col-md-3">
+                <h3 class="col-md-6" style="margin:0px 0px 0px 0px;text-align:justify" ><span style="font-style:normal">Vikas Meena</span><br><i> - just one word...Heaven!!!</i></h3>
+            </div>
+            <div class="item">
+              <img src="file:\\\C:\Users\Lenovo\Desktop\New folder\Hall-5\city.jpg" style="width:150px;height:100px;border-radius:50%" class="col-md-offset-3 col-md-3">
+                 <h3 class="col-md-6" style="margin:0px 0px 0px 0px;text-align:justify" ><span style="font-style:normal">Somesh Patel</span><br><i>-This is where i turned from a boy to an responsible man..</i></h3>
+            </div>
+            <div class="item">
+              <img src="file:\\\C:\Users\Lenovo\Desktop\New folder\Hall-5\night.jpg" style="width:150px;height:100px;border-radius:50%" class="col-md-offset-3 col-md-3">
+                <h3 class="col-md-6" style="margin:0px 0px 0px 0px;text-align:justify" ><span style="font-style:normal">Akshay Bhola</span><br> <i>-Away from home..yet so close to it.....!</i></h3>
+            </div>
+
+            <a class="left carousel-control" href="#mycarousel2" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left logo-small" ></span>
+            </a>
+            <a class="right carousel-control" href="#mycarousel2" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right logo-small"></span>
+            </a>
+    </div>
+    </div>
+
+<hr>
+<div id="Contact">
+<div class="row" style="margin-top:100px">
+    <h3 style="font-size:30px;color:#f4511e;text-align:center">Contact Details </h3>
+    <div class="col-md-offset-3 col-md-4">
+            <img src="file:///C:/Users/Lenovo/Desktop/New%20folder/location.png" style="width:140px" ><br>
+            <h1 style="font-size:20px;color:#">B-214/HALL5,IITK</h1>
+    </div>
+    <div class="col-md-offset-1">
+            <img src="file:///C:/Users/Lenovo/Desktop/New%20folder/email1.jpg" style="width:100px;margin-left:100px"><br>
+            <h1 style="font-size:20px;color:#black">vikasm[at]iitk[dot]ac[dot]in</h1>
+    </div>
+</div><hr>
+<footer class="row" style="margin-top:100px"><div class="col-sm-3">
+  <p id="copy" style="font-size:30px;color:black;margin-top:170px">  &copy; Vikas Meena 2016 </p></div>
+  <div class="col-sm-4" id="contact" style="float:right"><h1 style="margin-left:40px;color:#f4511e">Contact through :</h1>
+  <ul class="contact1">
+      <li class="col-sm-1">
+          <a href="https://www.facebook.com/profile.php?id=100007634318750">
+          <span class="icon-facebook icon-4x" ></span>
+          </a>
+      </li>
+      <li class="col-sm-1">
+          <a href="https://twitter.com/vikasme71445579">
+          <span class="icon-twitter icon-4x" ></span>
+          </a>
+      </li>
+      <li class="col-sm-1">
+          <a href="https://www.linkedin.com/in/vikas-meena-a308aa121?trk=nav_responsive_tab_profile">
+          <span class="icon-linkedin icon-4x" ></span>
+          </a>
+      </li>
+      <li class="col-sm-1">
+          <a href="github.com">
+          <span class="icon-github icon-4x" ></span>
+          </a>
+      </li>
+  </ul>
+</div>
+</footer>
+</body>
+</html>
